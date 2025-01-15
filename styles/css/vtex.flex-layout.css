@@ -1,0 +1,13 @@
+.flexCol--logoContainer{
+    width: 180px;
+}   
+
+.flexCol--colSpacer{
+    padding-right: 4px;
+    margin-top: 17px;
+    margin-right: 20px;
+    height: 20px;
+    border-right: 1px solid #3abd13;
+}
+
+/* TODO: Improve responsive. "Store theme" image with resolution lower than 640px */

@@ -1,0 +1,194 @@
+{
+    "overlay-trigger#menu1": {
+        "props": {
+            "trigger": "hover"
+        },
+        "children": [
+            "rich-text#menu1",
+            "overlay-layout#menu1"
+        ]
+    },
+    "overlay-layout#menu1": {
+        "props": {},
+        "children": [
+            "overlay-trigger#category"
+        ]
+    },
+    "overlay-trigger#category": {
+        "props": {
+            "trigger": "hover"
+        },
+        "children": [
+            "rich-text#category",
+            "overlay-layout#subcategory"
+        ]
+    },
+    "overlay-layout#subcategory": {
+        "props": {},
+        "children": [
+            "rich-text#subcategory"
+        ]
+    },
+    "rich-text#menu1": {
+        "props": {
+            "text": "[Menú 1](/menu1-test)",
+            "blockClass": "menu"
+        }
+    },
+    "rich-text#category": {
+        "props": {
+            "text": "[**Category**](/category-test)",
+            "blockClass": "category"
+        }
+    },
+    "rich-text#subcategory": {
+        "props": {
+            "text": "[**SubCategory**](/subCategory-test)",
+            "blockClass": "subcategory"
+        }
+    },
+    "overlay-trigger#menu2": {
+        "props": {
+            "trigger": "hover"
+        },
+        "children": [
+            "rich-text#menu2",
+            "overlay-layout#menu2"
+        ]
+    },
+    "overlay-layout#menu2": {
+        "props": {},
+        "children": [
+            "overlay-trigger#category2"
+        ]
+    },
+    "overlay-trigger#category2": {
+        "props": {
+            "trigger": "hover"
+        },
+        "children": [
+            "rich-text#category2",
+            "overlay-layout#subcategory2"
+        ]
+    },
+    "overlay-layout#subcategory2": {
+        "props": {},
+        "children": [
+            "rich-text#subcategory2"
+        ]
+    },
+    "rich-text#menu2": {
+        "props": {
+            "text": "[Menú 2](/menu2-test)",
+            "blockClass": "menu"
+        }
+    },
+    "rich-text#category2": {
+        "props": {
+            "text": "[**Category2**](/category2-test)",
+            "blockClass": "category"
+        }
+    },
+    "rich-text#subcategory2": {
+        "props": {
+            "text": "[**SubCategory2**](/subCategory2-test)",
+            "blockClass": "subcategory"
+        }
+    },
+    "overlay-trigger#menu3": {
+        "props": {
+            "trigger": "hover"
+        },
+        "children": [
+            "rich-text#menu3",
+            "overlay-layout#menu3"
+        ]
+    },
+    "overlay-layout#menu3": {
+        "props": {},
+        "children": [
+            "overlay-trigger#category3"
+        ]
+    },
+    "overlay-trigger#category3": {
+        "props": {
+            "trigger": "hover"
+        },
+        "children": [
+            "rich-text#category3",
+            "overlay-layout#subcategory3"
+        ]
+    },
+    "overlay-layout#subcategory3": {
+        "props": {},
+        "children": [
+            "rich-text#subcategory3"
+        ]
+    },
+    "rich-text#menu3": {
+        "props": {
+            "text": "[Menú 3](/menu3-test)",
+            "blockClass": "menu"
+        }
+    },
+    "rich-text#category3": {
+        "props": {
+            "text": "[**Category3**](/category3-test)",
+            "blockClass": "category"
+        }
+    },
+    "rich-text#subcategory3": {
+        "props": {
+            "text": "[**SubCategory3**](/subCategory3-test)",
+            "blockClass": "subcategory"
+        }
+    },
+    "overlay-trigger#menu4": {
+        "props": {
+            "trigger": "hover"
+        },
+        "children": [
+            "rich-text#menu4",
+            "overlay-layout#menu4"
+        ]
+    },
+    "overlay-layout#menu4": {
+        "props": {},
+        "children": [
+            "overlay-trigger#category4"
+        ]
+    },
+    "overlay-trigger#category4": {
+        "props": {
+            "trigger": "hover"
+        },
+        "children": [
+            "rich-text#category4",
+            "overlay-layout#subcategory4"
+        ]
+    },
+    "overlay-layout#subcategory4": {
+        "props": {},
+        "children": [
+            "rich-text#subcategory4"
+        ]
+    },
+    "rich-text#menu4": {
+        "props": {
+            "text": "[Menú 4](/menu4-test)",
+            "blockClass": "menu"
+        }
+    },
+    "rich-text#category4": {
+        "props": {
+            "text": "[**Category4**](/category4-test)",
+            "blockClass": "category"
+        }
+    },
+    "rich-text#subcategory4": {
+        "props": {
+            "text": "[**SubCategory4**](/subCategory4-test)",
+            "blockClass": "subcategory"
+        }
+    }
+}
