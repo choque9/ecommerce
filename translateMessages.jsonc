@@ -1,0 +1,21 @@
+// mutation Save($saveArgs: SaveArgsV2!) {
+//     saveV2(args: $saveArgs)
+//   }
+
+// Se modificó desde iconLabel login 
+{
+    "saveArgs": {
+      "to": "es-AR",
+      "messages": [
+        {
+          "srcLang": "en-DV",
+          "srcMessage": "store/login.signIn",
+          "context": "vtex.login@2.x",
+          "targetMessage": "Iniciar sesión"
+        }
+      ]
+    }
+  }
+
+
+  Buscar ... modificado en Site editor

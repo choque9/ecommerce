@@ -1,0 +1,50 @@
+.label {
+    text-transform: lowercase;
+    font-weight: 700;
+    color: black;
+}
+
+.label::first-letter {
+    text-transform: capitalize;
+}
+
+.label:before {
+    content: url(https://cdn-icons-png.flaticon.com/512/9654/9654038.png);
+    position: absolute;
+    left: -16px;
+    top: -2px;
+    width: 0;
+    height: 0;
+    transform: scale(0.08);
+}
+
+@media (max-width: 1025px) {
+    .container :global(.vtex-button:before) {
+        content: url(https://cdn-icons-png.flaticon.com/512/9654/9654038.png);
+        position: absolute;
+        top: -2px;
+        width: 0;
+        height: 0;
+        transform: scale(0.08);
+        margin-left: -85px;
+    }
+
+    .container :global(.vtex-button:after) {
+        content: "Iniciar sesión";
+        color: black;
+        font-weight: 700;
+        font-size: 14px;
+        position: absolute;
+        right: 23px;
+        top: 12px;
+        text-transform: capitalize;
+    }
+
+    .container :global(.vtex-button) {
+        width: 180px;
+    }
+
+    .container {
+        margin-left: 60px;
+    }
+}

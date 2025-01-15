@@ -1,0 +1,13 @@
+.cartIcon{
+    display: none;
+}
+
+.minicartIconContainer::before {
+    content: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcE1gZF8fNsrNL6p4GzvErEZu2yNbntLEHKrevbP6n7gCtH4qJ);
+    position: absolute;
+    top: -32px;
+    left: -14px;
+    width: 0;
+    height: 0;
+    transform: scale(0.3);
+}
