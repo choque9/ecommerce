@@ -163,7 +163,7 @@
   },
   "drawer": {
   "children": [
-    "piercecommercepartnerar.menu:menu"
+    // "piercecommercepartnerar.menu:menu"
   ]
 },
   "flex-layout.col#login-mobile": {

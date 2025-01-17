@@ -1,0 +1,13 @@
+.headerContainer {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.closeButton {
+    color: white;
+    padding: 26px 10px 26px 10px;
+}
+
+.closeIcon {
+    width: 23px;
+}
