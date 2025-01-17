@@ -32,6 +32,7 @@
   },
   "flex-layout.col#content-banner": {
     "children": [
+      "banner", 
       "flex-layout.row#fetchprevious",
       "flex-layout.row#products",
       "flex-layout.row#fetchmore"
