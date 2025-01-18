@@ -22,3 +22,9 @@
         padding: 20px;
     }
 }
+
+.infoCardContainer--info-card-banner-one, 
+.infoCardContainer--info-card-banner-two {
+    height: 100%;
+    display: none;
+}

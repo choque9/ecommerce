@@ -16,10 +16,54 @@
       "search-result-layout.desktop#banner"
     ]
   },
+  "search-banner#one": {
+    "props": {
+      "area": "one",
+      "blockClass": "myBanner",
+      "horizontalAlignment": "center"
+    }
+  },
+  "flex-layout.row#banner-one": {
+    "children": [
+      "flex-layout.row#BannersInfoCards",
+      "search-banner#one"
+    ]
+  },
   "search-result-layout.desktop#banner": {
     "children": [
+      "flex-layout.row#banner-one",
       "flex-layout.row#result-banner"
     ]
+  },
+  "info-card#BannerOne": {
+    "props": {
+      "id": "info-card-banner-one",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy3dJhLSMxiSSiOBRP-YDLCIrMQvmJ6yRvuA&s",
+      "headline": "Title test",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-banner-one",
+      "textAlignment": "center",
+      "fetchpriority": "auto",
+      "preload": false
+    }
+  },
+  "info-card#BannerTwo": {
+    "props": {
+      "id": "info-card-banner-two",
+      "isFullModeStyle": true,
+      "textPosition": "center",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRI37eMfuR5NU-BNun7a7ZUFZYnYOaSNfBzw&s",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-banner-two",
+      "textAlignment": "center",
+      "fetchpriority": "auto",
+      "preload": false
+    }
   },
   "flex-layout.row#result-banner": {
     "children": [
@@ -32,7 +76,6 @@
   },
   "flex-layout.col#content-banner": {
     "children": [
-      "banner", 
       "flex-layout.row#fetchprevious",
       "flex-layout.row#products",
       "flex-layout.row#fetchmore"
@@ -69,6 +112,20 @@
     }
   },
   "flex-layout.row#products": {
+    "children": [
+      "banner"
+    ]
+  },
+  "flex-layout.row#BannersInfoCards": {
+    "props":{
+      "blockClass": "bannerInforCardPLP"
+    },
+    "children": [
+      "info-card#BannerOne",
+      "info-card#BannerTwo"
+    ]
+  },
+  "banner":{
     "children": [
       "search-content"
     ]

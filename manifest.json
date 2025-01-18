@@ -50,7 +50,8 @@
     "vtex.product-highlights": "2.x",
     "vtex.store-link": "0.x",
     "vtex.visibility-layout": "0.x",
-    "piercecommercepartnerar.banner": "0.x"
+    "piercecommercepartnerar.banner": "0.x",
+    "vtex.search": "2.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
