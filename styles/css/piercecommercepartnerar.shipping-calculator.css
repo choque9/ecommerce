@@ -1,0 +1,17 @@
+.input {
+    border-radius: 50px;
+    border-color: rgb(137, 199, 43);
+}
+
+.input:hover {
+    border: 1px solid rgb(154, 216, 62);
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.shippingHeaderTitle {
+    font-weight: 500;
+}

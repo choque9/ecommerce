@@ -136,7 +136,8 @@
   },
   "rich-text#shipping-calculate-cost": {
     "props": {
-      "text": "Calcular costo de envío"
+      "text": "Calcular costo de envío",
+      "blockClass":"shipping-calculate-cost"
     }
   },
   "modal-layout#shipping-calculator": {
