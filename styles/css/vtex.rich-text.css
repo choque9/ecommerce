@@ -3,3 +3,9 @@
     text-decoration: none;
     color: black;
 }
+
+.wrapper--shipping-calculate-cost {
+    color: #53c6f3;
+    font-size: 24px;
+    cursor: pointer;
+}
