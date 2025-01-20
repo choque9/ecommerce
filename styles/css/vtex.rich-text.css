@@ -9,3 +9,13 @@
     font-size: 24px;
     cursor: pointer;
 }
+
+.paragraph--subcategory,
+.link--subcategory,
+.strong--subcategory,
+.link--category,
+.strong--category{
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+}

@@ -51,7 +51,8 @@
     "vtex.store-link": "0.x",
     "vtex.visibility-layout": "0.x",
     "piercecommercepartnerar.shipping-calculator": "0.x",
-    "piercecommercepartnerar.banner": "0.x"
+    "piercecommercepartnerar.banner": "0.x",
+    "piercecommercepartnerar.menu": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

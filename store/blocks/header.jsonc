@@ -132,7 +132,7 @@
       "blockClass": "main-header-mobile",
       "preventHorizontalStretch": false,
       "preserveLayoutOnMobile": true,
-      "fullWidth": true
+      "fullWidth": false
     }
   },
   "flex-layout.col#mobile": {
@@ -162,10 +162,121 @@
     }
   },
   "drawer": {
-  "children": [
-    // "piercecommercepartnerar.menu:menu"
-  ]
-},
+    "children": [
+      "flex-layout.row#mobile-category"
+    ]
+  },
+  "flex-layout.row#mobile-category": {
+    "props":{
+      "blockClass" : "mobileCategoryContainer"
+    },
+    "children": [
+      "flex-layout.col#mobile-category"
+    ]
+  },
+  "flex-layout.col#mobile-category": {
+    "props":{
+      "blockClass" : "mobileCategoryContainer"
+    },
+    "children": [
+      "piercecommercepartnerar.menu@0.x:menu#menu"
+    ]
+  },
+  "piercecommercepartnerar.menu@0.x:menu#menu": {
+    "props":{
+      "blockClass" : "mobileCategoryContainer"
+    },
+    "children": [
+      "piercecommercepartnerar.menu@0.x:department#department1",
+      "piercecommercepartnerar.menu@0.x:department#department2",
+      "piercecommercepartnerar.menu@0.x:department#department3",
+      "piercecommercepartnerar.menu@0.x:department#department4"
+    ]
+  },
+  "piercecommercepartnerar.menu@0.x:department#department1": {
+    "props": {
+      "label": "Menú 1"
+    },
+    "children": [
+      "piercecommercepartnerar.menu@0.x:category#category1"
+    ]
+  },
+  "piercecommercepartnerar.menu@0.x:category#category1": {
+    "props": {
+      "label": "category 1"
+    },
+    "children": [
+      "piercecommercepartnerar.menu@0.x:subCategory#subCategory1"
+    ]
+  },
+  "piercecommercepartnerar.menu@0.x:subCategory#subCategory1": {
+    "props": {
+      "label": "Sub categoria 1"
+    }
+  },
+  "piercecommercepartnerar.menu@0.x:department#department2": {
+    "props": {
+      "label": "Menú 2"
+    },
+    "children": [
+      "piercecommercepartnerar.menu@0.x:category#category2"
+    ]
+  },
+  "piercecommercepartnerar.menu@0.x:category#category2": {
+    "props": {
+      "label": "category 2"
+    },
+    "children": [
+      "piercecommercepartnerar.menu@0.x:subCategory#subCategory2"
+    ]
+  },
+  "piercecommercepartnerar.menu@0.x:subCategory#subCategory2": {
+    "props": {
+      "label": "Subcategory 2"
+    }
+  },
+  "piercecommercepartnerar.menu@0.x:department#department3": {
+    "props": {
+      "label": "Menú 3"
+    },
+    "children": [
+      "piercecommercepartnerar.menu@0.x:category#category3"
+    ]
+  },
+  "piercecommercepartnerar.menu@0.x:department#department4": {
+    "props": {
+      "label": "Menú 4"
+    },
+    "children": [
+      "piercecommercepartnerar.menu@0.x:category#category4"
+    ]
+  },
+  "piercecommercepartnerar.menu@0.x:category#category3": {
+    "props": {
+      "label": "category 3"
+    },
+    "children": [
+      "piercecommercepartnerar.menu@0.x:subCategory#subCategory3"
+    ]
+  },
+  "piercecommercepartnerar.menu@0.x:category#category4": {
+    "props": {
+      "label": "category 4"
+    },
+    "children": [
+      "piercecommercepartnerar.menu@0.x:subCategory#subCategory4"
+    ]
+  },
+  "piercecommercepartnerar.menu@0.x:subCategory#subCategory3": {
+    "props": {
+      "label": "Categoria 3"
+    }
+  },
+  "piercecommercepartnerar.menu@0.x:subCategory#subCategory4": {
+    "props": {
+      "label": "Categoria 4"
+    }
+  },
   "flex-layout.col#login-mobile": {
     "props": {
       "verticalAlign": "middle",
