@@ -1,0 +1,8 @@
+.menuContainer :global(.vtex__icon-caret-down),
+.menuContainer :global(.vtex__icon-caret-up) {
+    display: none;
+}
+
+:global(.vtex-styleguide-9-x-jsFocusVisible):first-child  {
+    margin: 15px;
+}

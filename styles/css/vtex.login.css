@@ -48,3 +48,9 @@
         margin-left: 60px;
     }
 }
+
+@media (max-width: 600px) {
+    .buttonLink {
+        margin-right: -36px;
+    }
+}

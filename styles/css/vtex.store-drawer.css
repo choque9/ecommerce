@@ -1,0 +1,8 @@
+.closeIconContainer {
+    flex-direction: row-reverse;
+}
+
+.openIconContainer{
+    margin-top: 13px;
+    z-index: 1000;
+}
